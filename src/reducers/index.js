@@ -3,10 +3,12 @@
  */
 import {combineReducers} from 'redux';
 import courses from './courseReducer';
+import authors from './authorReducer';
 
 const rootReducer = combineReducers({
   //ES5 short hand property name
-  courses
+  courses,
+  authors
 });
 
 export default rootReducer;
